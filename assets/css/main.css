@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url("academicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300italic,400,600");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,400italic,600italic|Cormorant+Garamond:400,700");
@@ -2294,17 +2295,17 @@ button,
 		position: relative;
 		color: #172849;
 		font-weight: 600;
-		font-size: 2em;
-		line-height: 2em;
+		font-size: 1.75em;
+		line-height: 1.75em;
 		text-align: right;
 	}
 
 	#logo p {
 		position: relative;
 		display: block;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		color: #172849;
-		line-height: 1.75em;
+		line-height: 1.3em;
 		margin: 0.5em 0 0 0;
 		text-align: right;
 	}
