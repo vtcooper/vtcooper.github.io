@@ -2292,19 +2292,21 @@ button,
 
 	#logo h1 {
 		position: relative;
-		color: #fff;
+		color: #172849;
 		font-weight: 600;
 		font-size: 1em;
 		line-height: 1em;
+		text-align: right;
 	}
 
 	#logo p {
 		position: relative;
 		display: block;
 		font-size: 0.6em;
-		color: rgba(255, 255, 255, 0.5);
+		color: #172849;
 		line-height: 1.25em;
 		margin: 0.5em 0 0 0;
+		text-align: right;
 	}
 
 	#logo .image {
