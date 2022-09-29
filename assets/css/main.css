@@ -95,7 +95,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #4169e1;
   font-family: "Cormorant Garamond", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -1106,7 +1106,7 @@ input[type="radio"] {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
-    color: #7f888f;
+    color: #4169e1;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -1903,7 +1903,7 @@ button,
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
-    color: #7f888f;
+    color: #4169e1;
     content: '\f002';
     cursor: default;
     display: block;
@@ -2058,7 +2058,7 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #7f888f;
+        color: #4169e1;
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
