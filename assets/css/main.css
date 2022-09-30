@@ -1225,12 +1225,12 @@ input[type="radio"] + label:before {
     border-radius: 0.375em;
     display: block; }
   .image.avatar48 {
-	width: 72px;
-        height: 72px; 
+	width: 96px;
+        height: 96px; 
 	background: #f00; }
 	.image.avatar48 img {
-		width: 72px;
-		height: 72px;}	
+		width: 96px;
+		height: 96px;}	
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
