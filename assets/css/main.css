@@ -2113,6 +2113,7 @@ button,
         font-size: 1.25em;
         margin: 0; }
       #header .icons {
+	display: inline-block;      
         height: 5em;
         line-height: 5em;
         position: absolute;
