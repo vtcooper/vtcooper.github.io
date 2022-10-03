@@ -2114,7 +2114,8 @@ button,
         margin: 0; }
       #header .icons {
 	display: inline-block;      
-        height: 5em;
+        text-decoration: none;
+	height: 5em;
         line-height: 5em;
         position: absolute;
         right: -0.5em;
