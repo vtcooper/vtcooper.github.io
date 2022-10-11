@@ -1225,12 +1225,12 @@ input[type="radio"] + label:before {
     border-radius: 0.375em;
     display: block; }
   .image.avatar48 {
-	width: 96px;
-        height: 96px; 
+	width: 84px;
+        height: 84px; 
 	background: #f00; }
 	.image.avatar48 img {
-		width: 96px;
-		height: 96px;}	
+		width: 84px;
+		height: 84px;}	
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
@@ -2297,19 +2297,21 @@ button,
 		position: relative;
 		color: #172849;
 		font-weight: 600;
-		font-size: 1.75em;
-		line-height: 1.75em;
+		font-size: 1.5em;
+		line-height: 1.5em;
 		text-align: right;
+    vertical-align: text-top;
 	}
 
 	#logo p {
 		position: relative;
 		display: block;
-		font-size: 1.3em;
+		font-size: 1.2em;
 		color: #172849;
-		line-height: 1.3em;
+		line-height: 1.2em;
 		margin: 0.5em 0 0 0;
 		text-align: right;
+    vertical-align: text-top;
 	}
 
 	#logo .image {
