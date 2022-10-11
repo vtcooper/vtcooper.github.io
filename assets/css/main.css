@@ -2300,7 +2300,6 @@ button,
 		font-size: 1.5em;
 		line-height: 1.5em;
 		text-align: right;
-    vertical-align: text-top;
 	}
 
 	#logo p {
@@ -2311,11 +2310,11 @@ button,
 		line-height: 1.2em;
 		margin: 0.5em 0 0 0;
 		text-align: right;
-    vertical-align: text-top;
 	}
 
 	#logo .image {
 		position: absolute;
 		left: 0;
 		top: 0;
+    padding-top: 6px;
 	} 
