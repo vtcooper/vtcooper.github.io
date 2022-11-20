@@ -23,7 +23,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+									<a href="index.html" class="logo"><strong>Vince Cooper</strong></a>
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -57,7 +57,7 @@
 										and improve fundamental understanding.
 
 									<p>
-										Polar climate has been a recurring research theme 
+										Polar climate has been a recurring theme 
 										through my study of the Last Glacial Maximum (~20,000 years ago)
 										and my work on interactions between sea ice and ocean surface waves.
 									</p>
@@ -125,14 +125,36 @@
 									<h2>Climate Data Assimilation</h2>
 
 									<p>
-										Presented at CFMIP and ... 
-										Intemalesuada fame.
+										Currently, I am focused on reconstructing SST patterns going back to the preindustrial period (1850-present). 
+										While we have reasonable constraints on the <i>global-mean</i> change in surface temperature back to 1850, we do not 
+										have strong constraints (or robust uncertainty quantification) on the <i>spatial pattern</i> of SST change.
+										Past attempts at infilling gaps in SST observations back to 1850 have produced different SST-anomaly patterns. 
+										Without strong constraints on SST patterns of the recent past, 
+										we are missing information on climate variability and the climate system's response to anthropogenic forcing 
+										since the preindustrial period.
 									</p>
+
 									<p>
-										Collaborators: .
+										We are using data assimilation to reconstruct full spatial fields of SST and sea ice 
+										back to 1850 at monthly temporal resolution. 
+										With data assimilation, we apply a Bayesian statistical framework that propagates information 
+										from sparse observations (e.g., bucket measurements of SST from ships of opportunity) 
+										to unobserved regions of the globe. Data assimilation spreads information using covariances that are based on 
+										dynamics of the climate system (rather than interpolating without considering physical constrains). 
+										We are simultaneously able to quantify uncertainty in the spatial patterns.
 									</p>
+									
 									<p>
-										Bayesian stuff.
+										Linear inverse models can be efficiently paired with data assimilation. After training a linear inverse model (LIM) on 
+										reanalysis data or climate model output, we can use the LIM to predict SST patterns for a specific month 
+										based on our analysis of the previous month. The LIM predictions may improve our "prior" (i.e., first guess) 
+										estimate of the SST pattern, relative to the "uninformed prior" we would use in offline data assimilation, 
+										thereby enhancing our ability to constrain each month of SSTs back to 1850. 
+										The LIM is a computationally efficient statistical tool that captures the linear dynamics of a complex system.
+									</p>
+
+									<p>
+										<b>Collaborators:</b> Kyle Armour and Greg Hakim.
 									</p>
 					
 									<div class="box">
@@ -143,13 +165,13 @@
 													Reconstruction of global SST and land surface temperature in the 1850s.
 												</h4>
 												Illustrative reconstruction of the global pattern of surface temperature informed by a small 
-												subset of observations (gray dots). The observations are a representative example of the 
-												available data points for reconstructing one month in the 1850s. The reconstruction uses an 
+												subset of observations (gray dots). 
+											</p>
+											<p>
+												The observations are a representative example of the 
+												available data for reconstructing one month in the 1850s. The reconstruction uses an 
 												ensemble Kalman filter.
 											</p>
-										<p>
-											Felis.
-										</p>
 									</div>
 
 									<hr class="major" />
@@ -181,13 +203,18 @@
 									</p>
 
 									<p>
-										See a poster and paper I've prepared on this topic: 
-										<a href="https://vtcooper.github.io/files/posters/2021.06_PolarAMS_poster_COOPERvince_vF.pdf">[Download Polar AMS 2021 Poster]</a>.
-									
-										<p style="text-align: left;"> <b>Cooper, V. T.</b>, Roach, L. A., Thomson, J., Brenner, S. D., Smith, 
+										See a poster and paper I've prepared on this topic below.
+									</p>
+
+									<p>
+										<a href="https://vtcooper.github.io/files/posters/2021.06_PolarAMS_poster_COOPERvince_vF.pdf">
+											[Download Polar AMS 2021 Poster]</a>.
+									</p> 
+										
+									<p style="text-align: left;"> <b>Cooper, V. T.</b>, Roach, L. A., Thomson, J., Brenner, S. D., Smith, 
 											M. M., Meylan, M. H., and C. M. Bitz. Wind waves in sea ice of the western Arctic and a global coupled wave-ice model (2022). 
 											<i> Philosophical Transactions of the Royal Society A.</i> 380:20210258. 
-											<a href="https://doi.org/10.1098/rsta.2021.0258">https://doi.org/10.1098/rsta.2021.0258</a></p>
+											<a href="https://doi.org/10.1098/rsta.2021.0258">https://doi.org/10.1098/rsta.2021.0258</a>
 									</p>
 
 									<p>
@@ -198,13 +225,13 @@
 										<p>
 											<span class="image left">
 												<img src="images/SeaIceMIZ_20181004v2.jpg" alt="" /></span>
-												<h4>Marginal Ice Zone with Fragmented Ice Floes</h4>
+												<h4>Marginal Ice Zone with Fragmented Ice Floes (Central Arctic, Oct. 2018)</h4>
 												Source: <a href="https://worldview.earthdata.nasa.gov/?v=-1933941.0967661443,-36950.38876814037,-1281317.421899834,404905.6112318598&p=arctic&t=2018-10-04-T16%3A00%3A58Z">
 													NASA EOSDIS Worldview</a>.
 											</p>
 										<p>
 											Ocean surface waves affect sea ice near the ice edge, but waves can also develop in the smaller 
-											areas of open water within the pack ice. We've characterized those locally generated waves 
+											areas (width of ~10 km) of open water within the pack ice. We've characterized those locally generated waves 
 											in observations and investigated how they might affect sea ice in climate-scale coupled models.
 										</p>
 									</div>
