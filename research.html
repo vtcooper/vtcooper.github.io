@@ -38,32 +38,33 @@
 										<h1>Research</h1>
 									</header>
 
-									<span class="image main"><img src="https://photos.smugmug.com/Originals/n-27XMT5/2022-Iceland-originals/i-8GFbSV2/0/936d27ff/X2/VTC08708-X2.jpg" style="width: 900px; height: 300px; object-fit: cover;" alt="" /></span>
+									<!-- <span class="image main"><img src="https://photos.smugmug.com/Originals/n-27XMT5/2022-Iceland-originals/i-8GFbSV2/0/936d27ff/X2/VTC08708-X2.jpg" 
+										style="width: 900px; height: 300px; object-fit: cover;" alt="" /></span> -->
 									
 
 									<p>
 										I study <b>coupled climate dynamics</b>, including <b>atmosphere-ocean-ice interactions</b>, 
 										<b>radiative feedbacks and climate sensitivity</b>, and <b>climate variability</b>. 
 										I am currently investigating how climate feedbacks and Earth's energy budget 
-										have changed in the past, specifically over the Last Glacial Maximum and recent instrumental records.
+										have changed over the Last Glacial Maximum and recent instrumental records (1850-present).
 										In this work, I am focusing on the role of spatial patterns of sea-surface temperature (SST) in determining  
 										radiative feedbacks, i.e., the "pattern effect."
 									</p>
 									<p>
 										<b>Tools that I use:</b> I run custom <b>experiments in global climate models</b> (using CESM), I use statistical methods 
-										(<b>data assimilation</b> and <b>linear inverse models</b>) to reconstruct and investigate past climate periods, and 
-										I analyze <b>observations</b> (e.g., ocean surface wave spectra from buoys and moorings, bucket measurements of SST, etc.) to inform modeling 
-										and improve fundamental understanding.
-
-									<p>
+										(<b>data assimilation</b> and <b>linear inverse models</b>) to reconstruct past climate periods, and 
+										I use <b>observations</b> (e.g., ocean surface wave spectra from buoys and moorings, bucket measurements of SST, etc.) to 
+										motivate testable hypotheses and advance understanding of the climate system.
+									</p>
+									<!-- <p>
 										Polar climate has been a recurring theme 
 										through my study of the Last Glacial Maximum (~20,000 years ago)
 										and my work on interactions between sea ice and ocean surface waves.
-									</p>
+									</p> -->
 										<!-- Data assimilation plays a key role in my research because 
 										it is the statistical tool that enables reconstruction
 										of past SST patterns with sparse observations. -->
-									</p>
+									
 
 									<hr class="major" />
 
@@ -71,12 +72,11 @@
 
 									<p>
 										This work focuses on how the spatial pattern of sea-surface temperature (SST)
-										impacts climate feedbacks and sensitivity (the "pattern effect"). We have found that the spatial pattern of 
-										<b>cooling</b> during the Last Glacial Maximum (LGM) is associated with a more positive global feedback, 
-										compared to the pattern of <b>warming</b> we expect from a doubling of carbon dioxide (CO2).
-										We are using atmosphere-only GCMs to quantify the LGM pattern effect.
-										I have been running prescribed-SST experiments in CAM4 and CAM5 using SST and sea ice reconstructed
-										using paleoclimate data assimilation.   
+										impacts climate feedbacks and sensitivity (the "pattern effect").
+										We are using atmosphere-only GCMs to quantify differences in the radiative feedback
+										actuated by LGM SST anomalies compared to the feedback we expect from a CO2-doubling.
+										I have been running prescribed-SST experiments in CAM4 and CAM5 with reconstructions of SST and sea ice
+										based on paleoclimate data assimilation.   
 									</p>
 									<p>	
 										If we use the LGM as a constraint on the climate sensitivity that is 
@@ -84,8 +84,8 @@
 										(as in <a href="https://doi.org/10.1029/2019RG000678">Sherwood et al. 2020</a>), 
 										we need to make an adjustment for how these different SST patterns (LGM vs. 2xCO2)
 										drive different radiative feedbacks (and climate sensitivities). 
-										The pattern-effect adjustment applied to the LGM reduces estimates of future warming and 
-										helps constrain what could happen in the future as greenhouse gases warm the planet.
+										<!-- The pattern-effect adjustment applied to the LGM reduces estimates of future warming and 
+										helps constrain what could happen in the future as greenhouse gases warm the planet. -->
 									</p>
 									<p>
 										Additional planned work will explore SST pattern effects in 
@@ -124,7 +124,7 @@
 									<h2>Climate Data Assimilation</h2>
 
 									<p>
-										Currently, I am focused on reconstructing SST patterns going back to the preindustrial period (1850-present). 
+										I am reconstructing global SST patterns in the instrumental era (1850-present) at monthly resolution. 
 										While we have reasonable constraints on the <i>global-mean</i> change in surface temperature back to 1850, we do not 
 										have strong constraints (or robust uncertainty quantification) on the <i>spatial pattern</i> of SST change.
 										Past attempts at infilling gaps in SST observations back to 1850 have produced different SST-anomaly patterns. 
@@ -134,18 +134,18 @@
 									</p>
 
 									<p>
-										We are using data assimilation to reconstruct full spatial fields of SST and sea ice 
+										Data assimilation methods enable reconstruction of full spatial fields of SST and sea ice 
 										back to 1850 at monthly temporal resolution. 
-										With data assimilation, we apply a Bayesian statistical framework that propagates information 
+										We apply a Bayesian statistical framework that propagates information 
 										from sparse observations (e.g., bucket measurements of SST from ships of opportunity) 
 										to unobserved regions of the globe. Data assimilation spreads information using covariances that are based on 
-										dynamics of the climate system (rather than interpolating without considering physical constrains). 
+										dynamics of the climate system (rather than interpolating without considering physical constraints). 
 										We are simultaneously able to quantify uncertainty in the spatial patterns.
 									</p>
 									
 									<p>
-										Linear inverse models can be efficiently paired with data assimilation. After training a linear inverse model (LIM) on 
-										reanalysis data or climate model output, we can use the LIM to predict SST patterns for a specific month 
+										Linear inverse models can be efficiently paired with data assimilation. After training a linear inverse model (LIM), 
+										we can use the LIM to predict SST patterns for a specific month 
 										based on our analysis of the previous month. The LIM predictions may improve our "prior" (i.e., first guess) 
 										estimate of the SST pattern, relative to the "uninformed prior" we would use in offline data assimilation, 
 										thereby enhancing our ability to constrain each month of SSTs back to 1850. 
@@ -222,8 +222,8 @@
 					
 									<div class="box">
 										<p>
-											<span class="image left">
-												<img src="images/SeaIceMIZ_20181004v2.jpg" alt="" /></span>
+											<span class="image right">
+												<img src="images/SeaIceMIZ_20181004v2.jpg" alt="" height="220px" width="auto" /></span>
 												<h3>Marginal Ice Zone with Fragmented Ice Floes (Central Arctic, Oct. 2018)</h3>
 												Source: <a href="https://worldview.earthdata.nasa.gov/?v=-1933941.0967661443,-36950.38876814037,-1281317.421899834,404905.6112318598&p=arctic&t=2018-10-04-T16%3A00%3A58Z">
 													NASA EOSDIS Worldview</a>.
