@@ -2319,3 +2319,11 @@ button,
 		top: 0;
     padding-top: 0px;
 	} 
+
+
+  .top-align-image {
+    object-fit: cover;
+    object-position: top !important;
+    width: 100%;
+    height: auto;
+}
